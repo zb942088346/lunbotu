@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.category {
+    width: 1226px;
+    height: 443px;
+    margin: 0 auto;
+    position: relative;
+}
+.category_photo{
+    width: 1226px;
+    height: 100%;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.category_photo li{
+    position: absolute;
+    top:0;
+    left:1226px;
+
+}
+.category_photo li:nth-child(1){
+    left: 0;
+}
+.category_photo li img{
+    height: 443px;
+}
+.category .circleBtn{
+    width: 90px;
+    height: 10px;
+    position: absolute;
+    right: 560px;
+    bottom: 25px;
+}
+
+.category .circleBtn div{
+    width: 6px;
+    height: 6px;
+    background: #92897c;
+    border-radius: 50%;
+    border: 2px solid #b3ada4;
+    float: left;
+    margin-right: 8px;
+}
+.category .circleBtn .circle{
+    background: #fff;
+}
+.category .circleBtn div:hover{
+    cursor:pointer;
+}
+.category .circleBtn div:nth-child(5){
+    margin-right: 0;
+}
+.category .category_photo_left{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    left: 0;
+    /*top:195px;*/
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("img/zu (1).png");
+    background-position: -84px 0;
+}
+.category .category_photo_left:hover{
+    background-position: 0 0;
+}
+.category .category_photo_right{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    right: 45px;
+    /*top:195px;*/
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    background-image: url("img/zu (1).png");
+    background-position: -125px 0;
+}
+.category .category_photo_right:hover{
+    background-position: -42px 0;
+}
